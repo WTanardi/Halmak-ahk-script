@@ -1,0 +1,72 @@
+; Top Row
+q::w
+w::l
+e::r
+r::b
+t::z
+y::;
+u::q
+i::u
+o::d
+p::j
+
+; Middle Row
+a::s
+s::h
+d::n
+f::t
+g::,
+h::.
+j::a
+k::e
+l::o
+sc027::i
+
+; Bottom Row
+z::f
+x::m
+c::v
+v::c
+b::/
+n::g
+m::p
+,::x
+.::k
+/::y
+
+
+; Top row
+^q::^q
+^w::^w
+^e::^e
+^r::^r
+^t::^t
+^y::^y
+^u::^u
+^i::^i
+^o::^o
+^p::^p
+
+; Middle row
+^a::^a
+^s::^s
+^d::^d
+^f::^f
+^g::^g
+^h::^h
+^j::^j
+^k::^k
+^l::^l
+^sc027::^;
+
+; Bottom row
+^z::^z
+^x::^x
+^c::^c
+^v::^v
+^b::^b
+^n::^n
+^m::^m
+^,::^,
+^.::^.
+^/::^/
