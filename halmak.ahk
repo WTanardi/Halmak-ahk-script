@@ -1,3 +1,4 @@
+; Halmak layout
 ; Top Row
 q::w
 w::l
@@ -34,7 +35,7 @@ m::p
 .::k
 /::y
 
-
+; Qwerty Ctrl, Alt and Windows Shortcut keys
 ; Top row
 ^q::^q
 ^w::^w
