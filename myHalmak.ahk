@@ -72,6 +72,43 @@ m::p
 ^.::^.
 ^/::^/
 
+; Windows key shortcut
+; Top row
+#q::#q
+#w::#w
+#e::#e
+#r::#r
+#t::#t
+#y::#y
+#u::#u
+#i::#i
+#o::#o
+#p::#p
+
+; Middle row
+#a::#a
+#s::#s
+#d::#d
+#f::#f
+#g::#g
+#h::#h
+#j::#j
+#k::#k
+#l::#l
+#sc027::#;
+
+; Bottom row
+#z::#z
+#x::#x
+#c::#c
+#v::#v
+#b::#b
+#n::#n
+#m::#m
+#,::#,
+#.::#.
+#/::#/
+
 ; My own config
 ; Switch capslock and backspace keys
 CapsLock::BackSpace
@@ -82,3 +119,6 @@ Home::F13
 End::F14
 PgUp::Media_Next
 PgDn::Media_Prev 
+
+^AppsKey::Reload
+AppsKey::Suspend
