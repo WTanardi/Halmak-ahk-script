@@ -120,5 +120,31 @@ End::F14
 PgUp::Media_Next
 PgDn::Media_Prev 
 
+; Switch back to normal keyboard
 ^AppsKey::Reload
 AppsKey::Suspend
+
+; Arrow keys
+
+!j::Send {Left}
+!k::Send {Down}
+!i::Send {Up}
+!l::Send {Right}
+
++!j::Send +{Left}
++!k::Send +{Down}
++!i::Send +{Up}
++!l::Send +{Right}
+return
+
+^!j::Send ^{Left}
+^!k::Send ^{Down}
+^!i::Send ^{Up}
+^!l::Send ^{Right}
+return
+
+^!+j::Send ^+{Left}
+^!+k::Send ^+{Down}
+^!+i::Send ^+{Up}
+^!+l::Send ^+{Right}
+return
