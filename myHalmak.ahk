@@ -126,25 +126,22 @@ AppsKey::Suspend
 
 ; Arrow keys
 
-!j::Send {Left}
-!k::Send {Down}
-!i::Send {Up}
-!l::Send {Right}
+!j::Left
+!k::Down
+!i::Up
+!l::Right
 
-+!j::Send +{Left}
-+!k::Send +{Down}
-+!i::Send +{Up}
-+!l::Send +{Right}
-return
++!j::+Left
++!k::+Down
++!i::+Up
++!l::+Right
 
-^!j::Send ^{Left}
-^!k::Send ^{Down}
-^!i::Send ^{Up}
-^!l::Send ^{Right}
-return
+^!j::^Left
+^!k::^Down
+^!i::^Up
+^!l::^Right
 
-^!+j::Send ^+{Left}
-^!+k::Send ^+{Down}
-^!+i::Send ^+{Up}
-^!+l::Send ^+{Right}
-return
+^!+j::^+Left
+^!+k::^+Down
+^!+i::^+Up
+^!+l::^+Right
